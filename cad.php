@@ -9,10 +9,10 @@
     </header>
     <main>
         <?php 
-        $request_1 = $_GET["nome"] ?? ""; 
-        $request_2 = $_GET["sobrenome"] ?? "";
-        $request_3 = $_GET["idade"] ?? ""; 
-        $request_4 = $_GET["cpf"]?? ""; 
+        $request_1 = $_POST["nome"] ?? ""; 
+        $request_2 = $_POST["sobrenome"] ?? "";
+        $request_3 = $_POST["idade"] ?? ""; 
+        $request_4 = $_POST["cpf"]?? ""; 
         
         echo "<p> <strong> Nome:</strong> $request_1 <p>
               <p> <strong> Sobrenome: </strong> $request_2 <p> 
